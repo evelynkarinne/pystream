@@ -66,7 +66,7 @@ with aba1:
 with aba2:
     st.write("Tela de Imagem")
     #Imagem
-    st.image("logo_pit.png")
+    #st.image("logo_pit.png")
 
 
 #Estrutura e Gráficos
