@@ -8,7 +8,7 @@ st.write("Escreva a sua lista") #texto qualquer
 
 #Entrada
 tarefa = st.text_input("Digite a Tarefa")
-prio = st.number_input("Ordem de prioridade")
+prio = st.number_input("Ordem de prioridade", step=1.0)
 prazo = st.date_input("Data de prazo")
 comentario = st.text_area("Comentários sobre a tarefa")
 hora = st.time_input("Horário")
